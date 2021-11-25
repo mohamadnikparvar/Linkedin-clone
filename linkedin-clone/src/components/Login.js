@@ -28,9 +28,12 @@ const Login = (props) => {
                   <img src={loginpic} alt="hero"/>
                 </Hero>
             <Form>
-                <Google>
+                <Google  >
+                {/* onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}       */}
                     <img src={google} alt="Google"/>
                     Sign in with Google
+                
+                    
                 </Google>
             </Form>
             </Section>
